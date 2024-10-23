@@ -18,7 +18,7 @@ console.log(name)
    return(
     
     <div style={Styles.parent}>
-      <h1>Names</h1>
+      <h1>Name</h1>
       {/* <h3>{name}</h3> */}
       <input type="text" style={Styles.inputstyles} onChange={handleChange}></input>
       <button style={Styles.buttonstyles} onClick={handleClick}>Output</button>
